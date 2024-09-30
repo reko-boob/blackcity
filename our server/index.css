@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    background-image: url(kwa/IMG_1038.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+div{
+    color: rgb(0, 0, 0);
+    text-align: right;
+}
+.head{
+    text-align: center; 
+    color: black;
+}
+.r{
+    text-align: right;
+    cursor: pointer;
+    transition-duration: 2S;
+}
+.r:hover{
+    border: 20px gray solid;
+    border-radius: 20px;
+    background-color: gray;
+    padding-bottom: 40px;
+    margin-left: 70%;
+
+}
+span{
+    color: white;
+    transition-duration: 1s;
+}
+span:hover{
+color: rgb(10, 10, 10);
+visibility: visible;
+background-color: gray;
+
+}
+a{
+    color: black;
+}
+.k{
+    color: white;
+}
